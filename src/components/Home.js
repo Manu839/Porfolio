@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroimage.jpg";
+import HeroImage from "../assets/heroimagee.jpg";
 import { Link } from "react-scroll";
 import Emoji from "react-emoji-render";
 import Typewriter from "typewriter-effect";
