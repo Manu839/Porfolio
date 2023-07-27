@@ -6,11 +6,14 @@ import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
 import SocialLink from "./components/SocialLink";
 import Footer from "./components/Footer"
-import { useState } from "react";
+import { useState ,useEffect } from "react";
 import LoadingBar from 'react-top-loading-bar'
 
 function App()
  { 
+    useEffect(() => {
+    document.title = "Manu"
+  })
   const [progress, setProgress] = useState(100);
   return (
     <div>
